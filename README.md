@@ -26,4 +26,29 @@ This project focuses on building a machine learning model for classifying Iris f
 
 By following these steps, we can build and evaluate a machine learning model for Iris flower classification. The code and its explanation can be found in this GitHub repository, providing a comprehensive guide for understanding and reproducing the project.
 
-Feel free to explore the code, experiment with different algorithms, and enhance the classification model as needed
+Feel free to explore the code, experiment with different algorithms, and enhance the classification model as needed.
+
+## To run this project on VS Code, you can follow these steps:
+
+- Set up your Python environment: Make sure you have Python installed on your system and set up the necessary Python environment in VS Code. You can install the Python extension for VS Code, which provides a rich set of tools for Python development.
+
+- Create a new Python file: Open VS Code and create a new Python file by clicking on the "New File" button or using the shortcut Ctrl+N (or Cmd+N on macOS).
+
+- Copy and paste the code: Copy the complete code provided earlier and paste it into the newly created Python file in VS Code.
+
+- Save the file: Save the Python file with an appropriate name and the ".py" extension, such as "iris_classification.py".
+
+- Install dependencies: Open the integrated terminal in VS Code by going to View > Terminal (or using the Ctrl+` shortcut). In the terminal, run the following command to install the required dependencies:
+```
+pip install numpy pandas scikit-learn
+```
+
+- Run the code: In the terminal, navigate to the directory where you saved the Python file. Then, run the Python file using the following command:
+```
+python iris_classification.py
+```
+
+- View the output: After running the code, you should see the output in the terminal, including the accuracy of the model.
+Make sure you have the necessary Python packages installed, and the terminal is using the correct Python environment if you have multiple Python installations on your system.
+
+By following these steps, you should be able to run the Iris flower classification ML project in VS Code.
